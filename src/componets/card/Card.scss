@@ -1,0 +1,96 @@
+.card {
+  margin-bottom: 135px;
+  &__p {
+    font-size: 16px;
+    line-height: 19.36px;
+    text-align: Center;
+    margin-bottom: 5px;
+    color: #3858d6;
+  }
+  &__h2 {
+    font-size: 36px;
+    line-height: 43.57px;
+    text-align: Center;
+    color: #1e1d1d;
+    margin-bottom: 65px;
+  }
+  &__main-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__div {
+    border: none;
+    background-color: #f6f6f6;
+    padding: 30px 42px 30px 34px;
+    width: 524px;
+    display: flex;
+    align-items: center;
+    gap: 29px;
+    border-radius: 22px;
+  }
+  &__h3 {
+    font-size: 24px;
+    line-height: 29.05px;
+    padding-bottom: 10px;
+  }
+  &__p-2 {
+    font-size: 18px;
+    line-height: 19.36px;
+    color: #8b8e99;
+    width: 255.97px;
+    padding-bottom: 10px;
+  }
+  &__bezak {
+    margin-left: 496px;
+    margin-top: 43px;
+  }
+  &__pro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    background-color: #f6f6f6;
+    padding: 33px 110px 43px 97px;
+    border-radius: 22px;
+    margin-top: 135px;
+    width: 1100px;
+    position: relative;
+  }
+  &__h2-main {
+    font-size: 36px;
+    line-height: 43.57px;
+    color: #1e1d1d;
+    padding-bottom: 12px;
+  }
+  &__p-main {
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #8b8e99;
+    padding-bottom: 12px;
+  }
+  &__input {
+    font-size: 16px;
+    line-height: 20.08px;
+    background-color: #ffffff;
+    color: #8b8e99b2;
+    border: none;
+    border-radius: 15px;
+    padding: 20px 0;
+    width: 443px;
+    padding-left: 30px;
+  }
+  &__btn {
+    position: absolute;
+    top: 197px;
+    left: 405px;
+    background-color: #3858d6;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20.08px;
+    padding: 12px 2px;
+    width: 125px;
+    border-radius: 9px;
+    border: none;
+  }
+}

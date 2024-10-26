@@ -1,0 +1,29 @@
+.hero {
+  margin-top: 73px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 135px;
+  &__contener {
+    border: none;
+    background-color: #f6f6f6;
+    border-radius: 22px;
+    padding: 46px 30px 55px 40px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    width: 354px;
+  }
+  &__h3 {
+    font-size: 36px;
+    line-height: 43.57px;
+    color: #1e1d1d;
+    padding-bottom: 9px;
+  }
+  &__p {
+    font-size: 16px;
+    line-height: 19.36px;
+    color: #8b8e99;
+    width: 173px;
+  }
+}
